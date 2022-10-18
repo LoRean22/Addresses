@@ -29,6 +29,7 @@ public:
 int main() {
 	ifstream in("in.txt");
 	int size;
+	in.is_open();
 	in >> size;
 	int count = size;
 
